@@ -22,7 +22,7 @@ header {
     margin: 10px;
     padding: 15px;
     text-transform: uppercase;
-    color: aliceblue;
+    color: white;
 }
 
 .block1 {
@@ -33,4 +33,30 @@ header {
 
 .block1 button {
     margin-top: 50px;
+}
+
+.block2 {
+    background-color: aqua;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0px;
+    padding-top: 50px
+}
+
+.block3 {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headsection1 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
 }
