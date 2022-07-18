@@ -29,6 +29,8 @@ header {
     background-color: #87509c;
     text-align: center;
     padding: 100px 0px;
+    text-transform: uppercase;
+    color: white;
 }
 
 .block1 button {
@@ -36,20 +38,31 @@ header {
 }
 
 .block2 {
-    background-color: aqua;
-    text-transform: uppercase;
+    background-color:#17c2a4;
     color: white;
     text-align: center;
 }
 
 h2 {
     margin-top: 0px;
-    padding-top: 50px
+    padding-top: 115px;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
+.box {
+    padding-top: 17px;
+    font-size: 18px;
+}
+
+.block3 h3 {
+    text-transform: uppercase;
+}
 .block3 {
     display: flex;
-    padding: 20px;
+    padding-top: 85px;
+    padding-left: 185px;
+    padding-right: 185px;
     justify-content: space-around;
     align-items: center;
 }
@@ -59,4 +72,9 @@ h2 {
     display: flex;
     justify-content: space-around;
     font-size: 25px;
+}
+
+.block3 div {
+    padding-left: 25px;
+    padding-right: 25px;
 }
